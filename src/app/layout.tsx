@@ -19,9 +19,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased overflow-x-hidden`}>
         <Sidebar />
-        <div className="md:ml-[70px] pb-16 md:pb-0">
+        <div className="md:ml-[70px] pb-16 md:pb-0 overflow-x-hidden">
           <Navbar />
           {children}
         </div>
