@@ -37,12 +37,14 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 md:left-[70px] right-0 z-40 transition-all duration-300 ${
+      className={`fixed top-0 left-0 md:left-[70px] right-0 z-40 ${
         scrolled || !isHome
           ? 'bg-white shadow-md py-3'
           : 'bg-gradient-to-b from-black/30 to-transparent py-5'
       }`}
+      style={{ transition: 'padding 0.3s ease, background 0.3s ease, box-shadow 0.3s ease' }}
     >
+      
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}

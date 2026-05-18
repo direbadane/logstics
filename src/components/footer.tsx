@@ -34,7 +34,7 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-gize-navy relative overflow-hidden mb-16 md:mb-0">
+    <footer className="bg-gize-navy relative overflow-hidden">
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-gize-red via-gize-orange to-gize-blue" />
       <div className="absolute -right-40 -bottom-40 w-80 h-80 bg-gize-blue/5 rounded-full" />
 
