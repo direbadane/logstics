@@ -17,12 +17,12 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Phone',
-    details: ['+251 11 234 5678', '+251 91 234 5678'],
+    details: ['+251 115 528080', ' +251 911 516478'],
   },
   {
     icon: Mail,
     title: 'Email',
-    details: ['info@gizeplc.com', 'sales@gizeplc.com'],
+    details: ['gize@gizeplc.com'],
   },
   {
     icon: Clock,
@@ -141,7 +141,7 @@ export default function Contact() {
                   <span className="text-white font-semibold text-sm">Our Location</span>
                 </div>
                 <p className="text-white/60 text-sm leading-relaxed">
-                  Bole Road, Atlas Building<br />
+                  Bole Rwanda Embassy Road<br />
                   Addis Ababa, Ethiopia
                 </p>
                 <div className="mt-4 h-[1px] bg-white/10" />
